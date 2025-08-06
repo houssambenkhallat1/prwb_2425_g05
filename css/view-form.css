@@ -1,0 +1,65 @@
+.handle {
+    cursor: move;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.handle:hover {
+    opacity: 1;
+}
+
+.sortable-placeholder {
+    background-color: #f8f9fa;
+    border: 2px dashed #dee2e6;
+    margin-bottom: 1rem;
+}
+.drag-handle:hover {
+    opacity: 0.7;
+}
+
+.sortable-dragging {
+    opacity: 0.5;
+    transform: rotate(2deg);
+}
+
+.light-blue {
+    color: #489cfc;
+}
+
+.switch-button {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: background-color 0.3s;
+}
+
+.switch-button.switch-on {
+    background-color: #0d6efd; /* Bootstrap primary */
+}
+
+.switch-button.switch-off {
+    background-color: #dee2e6; /* light grey */
+}
+
+.switch-toggle {
+    content: '';
+    position: absolute;
+    top: 4px;
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    border-radius: 50%;
+    transition: left 0.3s;
+}
+
+.switch-toggle.left {
+    left: 4px;
+}
+
+.switch-toggle.right {
+    left: 34px;
+}

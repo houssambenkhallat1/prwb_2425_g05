@@ -1,0 +1,30 @@
+.correct-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    border: 1px solid #364051;
+}
+
+.correct-box i {
+    font-size: 80px;
+    color: #e13445;
+}
+
+.correct-box h2 {
+    font-size: 20px;
+    color: #e13445;
+}
+
+.correct-box p {
+    font-size: 16px;
+    overflow: hidden;
+    width: 100%;
+    color: #e13445;
+}
+

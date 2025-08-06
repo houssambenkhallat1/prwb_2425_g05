@@ -1,0 +1,40 @@
+.cancellation-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    border: 1px solid #364051;
+}
+
+.cancellation-box i {
+    color: #dc3545;
+    font-size: 60px;
+}
+
+.cancellation-box H1 {
+    color: #dc3545;
+    font-size: 20px;
+}
+
+.cancellation-box p {
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.cancellation-box button {
+    border-radius: 4px;
+    color: white;
+    border: none;
+    padding: 4px 10px 4px 10px;
+}
+.cancellation-box button:first-child {
+    background-color: #6c757d;
+}
+
+.cancellation-box button:nth-child(2) {
+    background-color: #dc3545;
+}

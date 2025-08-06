@@ -1,0 +1,9 @@
+.next-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#btn-header-container {
+    margin-right: 40px;
+}

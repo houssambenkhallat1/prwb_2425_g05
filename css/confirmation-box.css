@@ -1,0 +1,52 @@
+.confirmation-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    border: 1px solid #364051;
+}
+
+.confirmation-box i {
+    font-size: 80px;
+    color: #f0c100; /* Jaune doux */
+}
+
+
+.confirmation-box p {
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+}
+
+.confirmation-box button {
+    flex: 1;  /* Chaque bouton occupe une part égale de la largeur */
+    padding: 10px;  /* Ajoute de l'espace autour du texte du bouton */
+    font-size: 15px; /* Taille du texte dans les boutons */
+    border: 1px solid #f0c100;
+    background-color: #f0c100;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.confirmation-box button:first-child {
+    background-color: #178551;  /* Couleur du bouton 1 */
+    border-color: #178551;
+
+}
+
+.confirmation-box button:nth-child(2) {
+    background-color: #e13445;  /* Couleur du bouton 2 */
+    border-color: #e13445;
+}
+
+.confirmation-box button:nth-child(3) {
+    background-color: #9399a2;  /* Couleur du bouton 3 */
+    border-color: #9399a2;
+}
+
+
